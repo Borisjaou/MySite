@@ -20,7 +20,7 @@ function Navigation() {
 
       </nav> */}
 
-      <div className='navigation-widescreen'>
+      <div className='navigation-menu'>
         <div className='navigation__link'>
           <Link to='/' ClassName='navigation__list'>Home</Link>
           <Link to='/' ClassName='navigation__list'>About Me</Link>

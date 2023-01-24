@@ -1,15 +1,24 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './Header.css';
 import Navigation from '../Navigation/Navigation';
 
 function Header() {
   return (
-    <header>
-      <div className='header'>
+    <header className='header header__background'>
+
+      <div className='header__menu'>
         <Navigation />
       </div>
-    </header>
+      <div className='header__text'>
+        <h2>Hello!</h2>
+        <h1>I'm Boris</h1>
+        <p>Front-End deveoper</p>
+        <p>and this is my site</p>
+      </div>
+
+
+    </header >
   );
 }
+
 export default Header;
