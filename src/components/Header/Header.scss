@@ -6,7 +6,7 @@
 }
 
 .header__background {
-  background-image: url(/src/images/mainHeaderPhoto.jpg);
+  background-image: url(../../images/mainHeaderPhoto.jpg);
   background-position: 50%; /*centered img */
   background-size: cover;
 
@@ -19,8 +19,24 @@
 }
 
 .header__text {
-  color: aqua;
+  margin-bottom: 350px;
+  color: #037E6A;
   align-self: center;
   justify-self: center;
   text-align: center;
+}
+
+.header__link {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.header__link_ref {
+  font-size: 20px;
+  line-height: 30px;
+  text-decoration: none;
+  color: #5EEEF5;
 }
