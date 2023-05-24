@@ -1,42 +1,16 @@
+@import '../../index.scss';
+
 .header {
+  background-color: $background-color;
   display: flex;
-
-  height: 100vh;
-  justify-content: center;
+  justify-content: space-between;
 }
 
-.header__background {
-  background-image: url(../../images/mainHeaderPhoto.jpg);
-  background-position: 50%; /*centered img */
-  background-size: cover;
-
+.logo {
+  color: $main-text-color;
+  font-family: $logo-font;
+  font-size: 26px;
+  line-height: 32px;
 }
 
-.header__menu {
-  position: absolute;
-  left: 10px;
-  justify-self: flex-start;
-}
 
-.header__text {
-  margin-bottom: 350px;
-  color: #037E6A;
-  align-self: center;
-  justify-self: center;
-  text-align: center;
-}
-
-.header__link {
-  margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-}
-.header__link_ref {
-  font-size: 20px;
-  line-height: 30px;
-  text-decoration: none;
-  color: #5EEEF5;
-}

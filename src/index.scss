@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'BlackHanSans', ;
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local('BlackHanSans'),
+    url(./fonts/Black_Han_Sans/BlackHanSans-Regular.ttf);
+}
+@font-face {
+  font-family: 'Inter', ;
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local('Inter'),
+    url(./fonts/Inter/static/Inter-Medium.ttf );
+}
+@font-face {
+  font-family: 'NotoSansKR', ;
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local('NotoSansKR'),
+    url(./fonts/Noto_Sans_KR/NotoSansKR-Black.otf);
+}
+
+
+$background-color: #040C0E;
+$main-text-color: #BE9063;
+$text-color: #A4978E;
+$logo-font: 'BlackHanSans';
+$header-font: 'Inter';
+$text-font: 'Inter';
+
+body {
+  margin: 0 10px;
+  /* font-family: Impact; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $background-color;
+
+}
+
+/* a {
+  text-decoration: none;
+  color: #000000;
+} */

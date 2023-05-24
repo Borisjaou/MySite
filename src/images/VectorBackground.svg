@@ -1,0 +1,29 @@
+<svg width="375" height="536" viewBox="0 0 375 536" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+        <linearGradient id="skyGradient" x1="100%" y1="100%">
+          <stop offset="0%" stop-color="lightblue" stop-opacity=".5">
+            <animate attributeName="stop-color" values="lightblue;blue;red;red;black;red;red;purple;lightblue" dur="14s" repeatCount="indefinite" />
+          </stop>
+          <stop offset="100%" stop-color="lightblue" stop-opacity=".5">
+            <animate attributeName="stop-color" values="lightblue;orange;purple;purple;black;purple;purple;blue;lightblue" dur="14s" repeatCount="indefinite" />
+            <animate attributeName="offset" values=".95;.80;.60;.40;.20;0;.20;.40;.60;.80;.95" dur="14s" repeatCount="indefinite" />
+          </stop>
+        </linearGradient>
+</defs>
+
+<path d="M85.1875 70.989C97.8682 57.3471 110.78 43.977 125.107 32.3227C182.294 -14.1679 264.71 -11.2563 303.965 53.8658C316.342 74.4067 325.782 97.0847 340.648 115.688C359.788 139.641 387.816 156.869 398.659 186.124C406.077 206.106 404.137 228.844 399.093 249.941C394.048 271.038 386.048 291.349 381.395 312.536C374.681 343.118 375.112 374.657 372.888 405.841C370.763 435.583 365.524 464.545 351.45 491.059C338.123 516.164 317.012 533.635 295.086 550.242C267.358 571.263 259.363 579.582 222.499 581.83C189.347 583.853 155.706 573.697 126.101 558.398C102.766 546.358 81.5879 531.154 61.0017 515.5C12.9556 478.946 -26.3072 418.838 -34.5232 356.244C-39.1141 321.274 -36.6181 285.518 -32.5103 250.251C-28.9874 220.064 -23.8179 188.735 -6.81293 163.775C6.30784 144.523 25.3386 130.779 42.3549 115.242C57.4588 101.425 71.1886 86.0445 85.1875 70.989Z" fill="url(#skyGradient)"/>
+</svg>
+
+<!-- <defs>
+        <linearGradient id="linear-gradient" x1="0" y1="0" x2="100%" y2="0" >
+            <stop offset="0" stop-color="red">
+               <animate attributeName="stop-color" values="yellow;red" dur="3s" repeatCount="indefinite"  />
+            </stop>
+            <stop offset="1" stop-color="yellow">
+                <animate attributeName="stop-color" values="red;yellow" dur="s" repeatCount="indefinite"  />
+            </stop>
+        </linearGradient>
+    </defs> -->
+
+    <!-- fill="url(#linear-gradient)" -->

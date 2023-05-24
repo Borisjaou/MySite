@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import './Navigation.css';
+import './Navigation.scss';
 
 function Navigation() {
   return (
@@ -22,11 +22,11 @@ function Navigation() {
 
       <div className='navigation-menu'>
         <div className='navigation__link'>
-          <Link to='/' ClassName='navigation__list'>Home</Link>
-          <Link to='/' ClassName='navigation__list'>About Me</Link>
-          <Link to='/' ClassName='navigation__list'>Skills</Link>
-          <Link to='/' ClassName='navigation__list'>Projects</Link>
-          <Link to='/' ClassName='navigation__list'>Contacts</Link>
+          <Link to='/' className='navigation__list'>Home</Link>
+          <Link to='/' className='navigation__list'>About Me</Link>
+          <Link to='/' className='navigation__list'>Skills</Link>
+          <Link to='/' className='navigation__list'>Projects</Link>
+          <Link to='/' className='navigation__list'>Contacts</Link>
 
         </div>
 
