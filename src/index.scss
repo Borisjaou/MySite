@@ -8,36 +8,36 @@
 }
 @font-face {
   font-family: 'Inter', ;
-  font-style: normal;
-  font-weight: 400;
   src:
     local('Inter'),
-    url(./fonts/Inter/static/Inter-Medium.ttf );
+    url(./fonts/Inter/static/Inter-Bold.ttf );
 }
 @font-face {
   font-family: 'NotoSansKR', ;
-  font-style: normal;
-  font-weight: 400;
   src:
     local('NotoSansKR'),
     url(./fonts/Noto_Sans_KR/NotoSansKR-Black.otf);
 }
 
-
 $background-color: #040C0E;
 $main-text-color: #BE9063;
 $text-color: #A4978E;
 $logo-font: 'BlackHanSans';
-$header-font: 'Inter';
 $text-font: 'Inter';
+$kor-text-font: 'NotoSansKR';
 
 body {
-  margin: 0 10px;
+  background-color: $background-color;
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+  /* max-width: 100%; */
+  overflow-x: hidden;
   /* font-family: Impact; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: $background-color;
-
+  margin: 0;
 }
 
 /* a {

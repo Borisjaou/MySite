@@ -1,25 +1,54 @@
 @import '../../index.scss';
 
+$header-margin: 50px auto;
+
+//Introdaction
 .introdaction {
-  height: 100vh;
-  width: 100vw;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
-.name {
+.main-header {
   font-family: $logo-font;
   font-size: 20vw;
   color: $main-text-color;
-  margin-bottom: 70px;
+  /* align-self: center; */
+  text-align: center;
+  margin: $header-margin;
 }
 
-.last-name {
-  font-family: $header-font;
-  font-size: 40px;
+.sub-header {
+  font-family: $logo-font;
+  font-size: 3vw;
   color: $main-text-color;
+  margin: 0 auto;
 }
 
-.description {
-  font-family: $text-font;
-  color: $main-text-color;
+
+.link-container {
+  display: flex;
+  justify-content: space-around;
 }
+
+//About
+.about {
+  color: $main-text-color;
+  height: 100vh;
+}
+
+
+//Projects
+.projects {
+  color: $main-text-color;
+  height: 100vh;
+}
+
+
+//Contact
+.contact {
+  color: $main-text-color;
+  height: 100vh;
+}
+
