@@ -1,6 +1,6 @@
-import './Introduction.scss';
+import './MainPage.scss';
 
-function Introduction() {
+function MainPage() {
   return (
     <div>
       <section className='introdaction'>
@@ -37,4 +37,4 @@ function Introduction() {
   );
 }
 
-export default Introduction;
+export default MainPage;
